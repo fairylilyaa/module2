@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Генератор паролей</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>ГЕНЕРАТОР СЛУЧАЙНЫХ ПАРОЛЕЙ</h1>
+    <label for="length">Длина пароля:</label>
+    <input type="number" id="length" value="12" min="4" max="32">
+    <br><br>
+    <label><input type="checkbox" id="lowercase"> Строчные буквы</label>
+    <label><input type="checkbox" id="uppercase" checked> Прописные буквы</label>
+    <label><input type="checkbox" id="numbers" checked> Цифры</label>
+    <label><input type="checkbox" id="symbols"> Символы</label> <br><br>
+    <button id="generate">СГЕНЕРИРОВАТЬ</button>
+    <p id="password"></p>
+    <script src="script.js"></script>
+</body>
+</html>
